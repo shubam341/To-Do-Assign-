@@ -158,8 +158,14 @@ export default function TodoItem({ todo, onToggle, onDelete, onEdit }: TodoItemP
                 {isPast(todo.dueDate!) && !isToday(todo.dueDate!) && <AlertCircle size={12} />}
               </div>
             )}
+
+            
           </div>
         </div>
+
+
+
+
 
         <div className="flex gap-1">
           <button
