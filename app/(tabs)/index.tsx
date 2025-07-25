@@ -8,6 +8,9 @@ import TodoItem from '../../src/components/TodoItem';
 import TodoStats from '../../src/components/TodoStats';
 import { TodoProvider, useTodo } from '../../src/contexts/TodoContext';
 
+
+
+
 function TodoApp() {
   const {
     state,
